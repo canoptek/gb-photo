@@ -8,7 +8,7 @@ This project is a homebrew enhancing the capabilities of the Game Boy Camera by 
 
 A special version compiled for the [Mega Duck, also known as Cougar Boy](https://en.wikipedia.org/wiki/Mega_Duck) is also available. It requires a special adapter that you can build from informations [available here (soon)](https://github.com/bbbbbr/megaduck-info).
 
-A special version compiled for the [Sega Game Gear](https://en.wikipedia.org/wiki/Game_Gear) is available as well. It requires a special adapter that you can build from informations available soon. 
+A special version compiled for the [Sega Game Gear](https://en.wikipedia.org/wiki/Game_Gear) is available as well. It requires a special adapter that you can build from informations [available here](https://github.com/untoxa/gamegear-gbcamera-adapter). 
 
 This project requires a reflashable Game Boy Camera cart. PCB's and building instructions may be found [in this project](https://github.com/2BitWizard/GB_Mini_Camera) or [in this more detailed fork](https://github.com/Raphael-Boichot/GB_Mini_Camera). Camera modding requires advanced skill in soldering and is not recommended for beginners. [GBxCart flasher from InsideGadget](https://www.gbxcart.com/) is the only known device compatible with camera flashcarts. A generic flashable cartridge is also necessary if you plan to remote control the camera via serial cable.
 
@@ -27,7 +27,7 @@ Example of use: Photo! working on a GB Boy Colour and remotely controlled from a
 
 The Mega Duck build of Photo! can be used when flashable Game Boy Cameras are connected via a cartridge slot adapter.
 
-# Photo! on a Game Gear with a Game Boy Mini Camera and the GameBoy-to-GameGear adapter prototype:
+# Photo! running on the Game Gear with the Game Boy Camera and the GameBoy-to-GameGear adapter:
 ![Showcase](doc/Images/Showcase_GameGear.jpg)
 
 The Game Gear build of Photo! can be used when flashable Game Boy Cameras are connected via a cartridge slot adapter.
