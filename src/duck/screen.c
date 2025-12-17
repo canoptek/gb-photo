@@ -52,7 +52,7 @@ const uint8_t screen_tile_map[DEVICE_SCREEN_HEIGHT * DEVICE_SCREEN_WIDTH] = {
     0x64, 0x65, 0x66, 0x67, 0x68, 0x69, 0x6A, 0x6B, 0x6C, 0x6D, 0x6E, 0x6F, 0x70, 0x71, 0x72, 0x73, 0x74, 0x75, 0x76, 0x77
 };
 
-static uint8_t * set_data_row(uint8_t * dest, const uint8_t * sour, uint8_t count) NAKED {
+uint8_t * set_data_row(uint8_t * dest, const uint8_t * sour, uint8_t count) NAKED {
     dest; sour; count;
     __asm
 .macro .WAIT_STAT_00 ?lbl
