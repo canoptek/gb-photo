@@ -12,14 +12,10 @@ ___sdcc_bcall_ehl::                     ; Performs a long call.
         ldh     (__current_rom), a
         ld      (_rROMB0_MBC5), a       ; Perform the switch
         rst     0x20
-        push    hl
-        ldhl    sp, #3
-        ld      h, (hl)
+        pop     hl
         ld      l, a
         ld      a, h
         ldh     (__current_rom), a
         ld      (_rROMB0_MBC5), a
         ld      a, l
-        pop     hl
-        add     sp, #2
         ret
